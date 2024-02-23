@@ -41,10 +41,8 @@ const Home = () => {
         <TextAnim />
         <UnorderedList alignItems="left" justify="left" textAlign="left">
           {' '}
-          <ListItem>Hello, this is my personal site </ListItem>
-          <ListItem>
-            This is something I did: Part of Poker@Berkeley, and AIS@B{' '}
-          </ListItem>
+          <ListItem>Hello! This is my personal site </ListItem>
+          <ListItem>Ive been a part of Poker@Berkeley, and AIS@B </ListItem>
           <ListItem>
             Have done research in mechanistic interpretabiltiy, and more
             recently, adversarial robustness.{' '}

@@ -20,7 +20,7 @@ const cursorVariants = {
     opacity: [1, 1, 0, 0],
     transition: {
       duration: 1,
-      repeat: 3,
+      repeat: 2.5,
       repeatDelay: 0,
       ease: 'linear',
       times: [0, 0.5, 0.5, 1],

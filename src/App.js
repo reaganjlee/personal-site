@@ -14,7 +14,7 @@ import {
   SimpleGrid,
   GridItem,
 } from '@chakra-ui/react';
-import Home from './pages/Home';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,6 +22,7 @@ import {
   ScrollRestoration,
 } from 'react-router-dom';
 
+import Home from './pages/Home';
 import ErrorPage from './pages/ErrorPage';
 import theme from './theme';
 
