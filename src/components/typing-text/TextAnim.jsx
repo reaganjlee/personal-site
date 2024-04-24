@@ -89,7 +89,7 @@ export default function TextAnim() {
           setTimeout(() => {
             setHighlight(false);
             setBold(true);
-          }, 2000); // Further delay as needed
+          }, 1000); // Further delay as needed
         },
       });
 
@@ -126,7 +126,6 @@ export default function TextAnim() {
           {displayText}
         </Text>
       </Box>
-      {/* Assuming CursorBlinker handles its visibility based on `highlight` */}
       <CursorBlinker visible={!highlight} />
     </Flex>
   );

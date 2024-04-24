@@ -15,8 +15,8 @@ const Page = props => {
   return (
     <>
       {/* <NavBar /> */}
-      <Box direction="column" align="center">
-        <Box w="90%" maxW="1440px">
+      <Box direction="column" align="center" >
+        <Box w="70%" maxW="1440px" minH="100vh">
           {props.children}
         </Box>
       </Box>

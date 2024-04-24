@@ -21,7 +21,7 @@ const ICON_SIZE = 12;
 const Footer = () => {
   return (
     <chakra.footer id="footer">
-      <Flex justifyContent="center">
+      <Flex justifyContent="center" w='full'>
         <VStack
           alignItems="center"
           justify="center"
@@ -59,30 +59,9 @@ const Footer = () => {
             spacing={3}
           >
             <ListItem>
-              &copy; AirBears at Berkeley. All rights reserved.
+              &copy; Reagan Lee 2024
             </ListItem>
-            <ListItem>
-              <Link href="https://www.ocf.berkeley.edu" isExternal>
-                <Image
-                  src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
-                  alt="Hosted by the OCF"
-                  style={{ border: 0 }}
-                />
-              </Link>
-            </ListItem>
-            <ListItem textAlign="center">
-              {' '}
-              We are a student group acting independently of the University of
-              California. We take full responsibility for our organization and
-              this web site.
-            </ListItem>
-            <ListItem>
-              {' '}
-              Made with ❤️ by{' '}
-              <Link href="https://www.linkedin.com/in/reaganjlee/">
-                Reagan Lee
-              </Link>
-            </ListItem>
+            
           </List>
         </VStack>
       </Flex>
