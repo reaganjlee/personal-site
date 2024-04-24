@@ -6,6 +6,14 @@ import { extendTheme } from '@chakra-ui/react';
 import '@fontsource/poppins';
 
 const theme = extendTheme({
+  styles: {
+    global: {
+      body: {
+        bg: '#FFFFFF',
+        // color: 'black',
+      },
+    },
+  },
   fonts: {
     heading: `'Poppins', sans-serif`,
     body: `'Poppins', sans-serif`,
