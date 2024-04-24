@@ -82,7 +82,7 @@ export default function TextAnim() {
     const delay = setTimeout(() => {
       const controls = animate(count, baseText.length, {
         type: 'tween',
-        duration: 2,
+        duration: 1.5,
         ease: 'easeInOut',
         onComplete: () => {
           setHighlight(true);

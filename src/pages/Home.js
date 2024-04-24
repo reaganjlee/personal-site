@@ -86,7 +86,7 @@ const Home = () => {
           {achievements}
         </UnorderedList>
         <Text py={2} pt={4}>My github can be found <Link
-              href="https://www.instagram.com/calairbears"
+              href="https://github.com/reaganjlee"
               isExternal
               color='blue.500'
             >here.</Link> To get in contact, feel free to email me at reaganjlee [at] berkeley.edu.</Text>
