@@ -85,7 +85,7 @@ const Home = () => {
         >
           {achievements}
         </UnorderedList>
-        <Text py={2}>My github can be found <Link
+        <Text py={2} pt={4}>My github can be found <Link
               href="https://www.instagram.com/calairbears"
               isExternal
               color='blue.500'
